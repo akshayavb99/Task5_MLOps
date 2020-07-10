@@ -138,7 +138,7 @@ grouped_data
 
 
 #Blocking IPs
-with open("blocked_ips.txt","a+") as f:
+with open("/root/mlops_task5/blocked_ips.txt","a+") as f:
     print(f.read())
     for i in grouped_data.index:
         if grouped_data['Cluster'][i] == 1:
