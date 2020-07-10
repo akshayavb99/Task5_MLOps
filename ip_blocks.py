@@ -19,7 +19,7 @@ import os
 # In[2]:
 
 
-d1 = pd.read_csv('access_log',header=None,names=['C1','C2'])
+d1 = pd.read_csv('/root/mlops_task5/access_log',header=None,names=['C1','C2'])
 d1
 
 
